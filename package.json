@@ -4,7 +4,8 @@
   "description": "My first NodeJS App made by https://www.youtube.com/watch?v=8bE_PBRriyU&ab_channel=%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BB%D0%B5%D0%BD%D0%9C%D0%B8%D0%BD%D0%B8%D0%BD",
   "main": "index.js",
   "scripts": {
-    "startDev": "node index.js"
+    "start": "node",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,13 @@
   "bugs": {
     "url": "https://github.com/BrainIsBad/node-express-mongo/issues"
   },
-  "homepage": "https://github.com/BrainIsBad/node-express-mongo#readme"
+  "homepage": "https://github.com/BrainIsBad/node-express-mongo#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "mongoose": "^5.10.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
 }
